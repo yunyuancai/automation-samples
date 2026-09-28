@@ -1,0 +1,28 @@
+# MR-J4-A parameter table (rev A) — exported from vendor tooling
+# Format: ID | SYMBOL | NAME | UNIT | RANGE | DEFAULT
+# Radix is carried by the 'h' suffix. A bare number is decimal.
+PA01 | *STY | Operation mode | - | 1000-1265h | 1000h
+PA02 | *REG | Regenerative option | - | 0000-0003h | 0000h
+PA03 | *ABS | Absolute position detection system | - | 0000-0001h | 0000h
+PA04 | *AOP1 | Function selection A-1 | - | 0000-0111h | 0000h
+PA05 | *FBP | For manufacturer setting | - | 0000-FFFFh | 0000h
+PA06 | *COP1 | Function selection A-2 | - | 0000-0110h | 0000h
+PA07 | *BAD | Line with a missing field | - | 0-100
+PA08 | *MIX | Mixed radix range | - | 0000-FFFF | 0
+XX01 | *SYM | Malformed parameter id | - | 0-100 | 0
+PA09 | *OOR | Default outside declared range | - | 0000-0005h | 0009h
+PA10 | *RAD | Default radix disagrees with range | - | 0000-0005h | 3
+PA11 | *INV | Inverted range | - | 0100-0050h | 0060h
+PB01 | *BOP1 | Function selection B-1 | - | 0000-0001h | 0000h
+PB02 | *BOP2 | Function selection B-2 | - | 0000-0003h | 0000h
+PB03 | *BOP3 | Function selection B-3 | - | 0000-0001h | 0000h
+PC01 | *COP2 | Function selection C-1 | - | 0000-0001h | 0000h
+PC02 | *COP3 | Function selection C-2 | - | 0000-0001h | 0000h
+PD01 | *DIA | Alarm history clear | - | 0000-0001h | 0000h
+PD02 | *DIF | Alarm history clear trigger | - | 0000-0001h | 0000h
+PL01 | *LOP1 | Function selection L-1 | - | 0000-0001h | 0000h
+PL02 | *LOP2 | Function selection L-2 | - | 0000-0001h | 0000h
+PO01 | *OP1 | Option function 1 | - | 0000-0007h | 0001h
+PO02 | *OP2 | Option function 2 | - | 0000-0003h | 0000h
+PS01 | *SSF | Speed limit | r/min | 0-100 | 50
+PT01 | *TMP | Thermal protection level | degC | 0-200 | 100

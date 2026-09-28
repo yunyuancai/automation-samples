@@ -1,0 +1,57 @@
+order_id,email,order_date,amount,country,note
+CD-0236,user236@example.com,2026-07-04,625.20,GB,
+CD-0226,user226@example.com,2026-01-10,255.60,DE,
+CD-0216,user216@example.com,2026-02-22,760.99,FR,
+CD-0218,user218@example.com,2026-09-13,59.46,DE,
+AB-1001,alice@example.com,2026-01-15,"$1,234.50",US,first order
+BADID,hugo@example.com,2026-04-07,10.00,US,order_id_bad_format
+AB-1001,alice@example.com,2026-01-15,"$1,234.50",US,duplicate submit
+CD-0235,user235@example.com,2026-11-25,599.65,FR,
+AB-1003,carol@example.com,2026-03-07,$0.99,DE,gift
+AB-1006,dan@example.com,05/03/2026,10.00,US,date_ambiguous
+CD-0238,user238@example.com,2026-08-27,146.02,FR,
+CD-0233,user233@example.com,2026-10-01,267.92,FR,
+CD-0200,user200@example.com,2026-02-20,813.73,GB,
+AB-1008,frank@example.com,2026-04-05,-5.00,US,amount_negative
+CD-0212,user212@example.com,2026-06-02,764.27,FR,
+CD-0202,user202@example.com,2026-07-14,302.38,DE,
+CD-0210,user210@example.com,2026-01-24,268.01,DE,
+CD-0211,user211@example.com,2026-08-16,787.90,CN,
+CD-0225,user225@example.com,2026-08-04,710.86,CN,
+CD-0203,user203@example.com,2026-07-28,192.00,FR,
+AB-1005,not-an-email,2026-04-02,10.00,US,email_invalid
+CD-0221,user221@example.com,2026-01-18,194.98,FR,
+CD-0209,user209@example.com,2026-04-20,479.69,FR,
+CD-0215,user215@example.com,2026-01-21,548.76,DE,
+AB-1013,kim@example.com,20260411,0,中国,zero amount is valid
+CD-0230,user230@example.com,2026-08-26,532.93,CN,
+CD-0234,user234@example.com,2026-12-17,898.60,FR,
+CD-0227,user227@example.com,2026-01-04,455.35,FR,
+CD-0204,user204@example.com,2026-12-05,621.08,GB,
+CD-0219,user219@example.com,2026-12-23,741.17,DE,
+CD-0229,user229@example.com,2026-03-01,96.87,US,
+AB-1004,,2026-04-01,10.00,US,email_missing
+CD-0228,user228@example.com,2026-02-24,472.71,GB,
+CD-0213,user213@example.com,2026-03-09,787.56,US,
+ ab-1012 ,  MESSY@Example.COM  ,2026-04-10, $ 42.00 ,uk,  extra   spaces  
+CD-0239,user239@example.com,2026-08-27,403.29,FR,
+AB-1011,jack@example.com,2026-04-09,"1.234,50",US,amount_ambiguous
+AB-1007,eve@example.com,not a date,10.00,US,date_unparsable
+CD-0223,user223@example.com,2026-10-20,109.00,GB,
+CD-0201,user201@example.com,2026-04-27,805.07,DE,
+CD-0205,user205@example.com,2026-12-02,446.50,GB,
+CD-0224,user224@example.com,2026-11-01,80.97,CN,
+AB-1009,gina@example.com,2026-04-06,N/A,US,amount_missing
+AB-1014,leo@example.com,2026-04-12,"$1,000.00",Germany,
+CD-0208,user208@example.com,2026-06-17,875.78,CN,
+AB-1010,ivy@example.com,2026-04-08,10.00,Wakanda,country_unrecognised
+CD-0206,user206@example.com,2026-07-16,389.39,DE,
+CD-0231,user231@example.com,2026-04-18,831.65,FR,
+CD-0222,user222@example.com,2026-01-14,423.99,FR,
+CD-0232,user232@example.com,2026-03-23,684.27,CN,
+CD-0237,user237@example.com,2026-09-23,192.49,FR,
+CD-0220,user220@example.com,2026-10-28,476.52,FR,
+CD-0217,user217@example.com,2026-03-10,289.87,GB,
+AB-1002,bob@example.com,2026/02/03,89.99,GB,
+CD-0207,user207@example.com,2026-12-27,78.86,DE,
+CD-0214,user214@example.com,2026-08-25,446.32,DE,

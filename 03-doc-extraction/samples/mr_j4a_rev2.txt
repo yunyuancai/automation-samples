@@ -1,0 +1,8 @@
+# MR-J4-A parameter table (rev B) — second source, for cross-checking
+# Two records below intentionally disagree with rev A.
+PA01 | *STY | Operation mode | - | 1000-1265h | 1000h
+PA02 | *REG | Regenerative option | - | 0000-0007h | 0000h
+PA03 | *ABS | Absolute position detection system | - | 0000-0001h | 0000h
+PB01 | *BOP1 | Function selection B-1 | - | 0000-0001h | 0000h
+PS01 | *SSF | Speed limit | rpm | 0-120 | 60
+PT01 | *TMP | Thermal protection level | degC | 0-200 | 100
