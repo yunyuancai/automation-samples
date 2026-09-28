@@ -7,6 +7,11 @@ third-party dependencies.**
 python run_all_tests.py     # one command, one green summary
 ```
 
+> **Windows note.** If `python` is the Microsoft Store stub, it exits silently
+> with no output. Use `py run_all_tests.py` instead, or turn off the App
+> execution aliases for python.exe. Check with `python --version` - a working
+> interpreter always prints a version.
+
 ---
 
 ## What is here

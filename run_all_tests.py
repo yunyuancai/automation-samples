@@ -1,6 +1,7 @@
 """Run every portfolio sample's test suite and summarise.
 
     python run_all_tests.py
+    py     run_all_tests.py     # Windows, if `python` is the Store stub
 
 Exits 0 only if all suites pass — so this can be the thing you show on a call:
 one command, one green summary.
