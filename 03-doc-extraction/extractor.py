@@ -21,7 +21,7 @@ Standard library only.
     python run.py --input samples/mr_j4a.txt --output out
     python run.py --input samples/mr_j4a.txt --input samples/mr_j4a_rev2.txt \
                   --output out --strict --fail-on-collision
-    python test_extractor.py            # 33 tests, no pytest needed
+    python test_extractor.py            # 39 tests, no pytest needed
 """
 
 from __future__ import annotations

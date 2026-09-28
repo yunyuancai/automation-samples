@@ -15,7 +15,7 @@ exits non-zero on a fatal problem and writes an auditable report either way.
 Run it:
     python make_sample.py                       # generate messy sample data
     python run.py --input data/orders_messy.csv --output out
-    python test_pipeline.py                     # 24 tests, no pytest needed
+    python test_pipeline.py                     # 39 tests, no pytest needed
 
 Standard library only.
 """
